@@ -1,0 +1,8 @@
+# Keys and secrets — never commit these
+*.pem
+*.key
+*.pub
+ 
+# OS junk
+.DS_Store
+ 
