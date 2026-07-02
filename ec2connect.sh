@@ -35,7 +35,7 @@ HOST="${2}"
 
 if [[ ! -f "${KEY_PATH}" ]];
 then
-	echo "no KEY found at <KEY_PATH>=$"{KEY_PATH}""
+	echo "no KEY found at <KEY_PATH>=${KEY_PATH}"
 	exit 1
 fi
 
